@@ -13,7 +13,6 @@ import com.google.ar.core.Anchor;
 import com.google.ar.core.HitResult;
 import com.google.ar.core.Plane;
 import com.google.ar.sceneform.AnchorNode;
-import com.google.ar.sceneform.assets.RenderableSource;
 import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.rendering.Renderable;
 import com.google.ar.sceneform.ux.ArFragment;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
 
-        initializeGallery();
+        // initializeGallery();
 
         arFragment.setOnTapArPlaneListener(
                 (HitResult hitresult, Plane plane, MotionEvent motionevent) -> {
