@@ -1,4 +1,4 @@
-package com.ayusch.arcorefirst;
+package com.danny.arcorefirst;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.ayusch.arcorefirst;
+package com.danny.arcorefirst;
 
 import org.junit.Test;
 
